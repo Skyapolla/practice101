@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+    
+
+
+.adobe-stock {
+    position: sticky;
+    top: 0px;
+    background-image: linear-gradient(#111010, #e97406);
+    height: 100vh;
+}
+
+
+
+
+.sidebar {
+    position: sticky;
+    top: 0;
+
+}
+
+.card {
+    box-shadow: 0 7px 10px black;
+    border-radius: 10px 20px;
+    transition: 01s easte-in-out;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+    transition: 0.8s;
+}
+
+
+.card p{
+   margin-left: 3px;
+}
+
+
+
+.carousel{ 
+    position: relative;
+    margin-top: 100px;
+    box-shadow: 0 7px 10px black;
+    border-radius: 20px 20px;
+    background-image: linear-gradient(rgb(233, 157, 15), rgb(216, 161, 10));
+    
+    
+}
+
+.tabs{
+    flex: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: rgb(209, 196, 196);
+    
+}
+
+.tabs .indicator{
+    background-color: #eb7b12;
+
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: #cc6728;
+    
+}
+
+.tab ul li {
+    box-shadow: 1px 1px 1px;
+}
+
+
+.adobe-stock ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: rgb(231, 220, 220);
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgb(32, 6, 6);
+    
+      
+}
+
+.collapsible-body {
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.collapsible-body  img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 2px;
+    cursor: pointer;
+}
+
+.highlight {
+    box-sizing: border-box;
+    box-shadow: 0 0 2px;
+}
+
+.td{
+    font-weight: 450;
+    font-size: medium;
+}
+
+.td:hover {
+    color:white;
+    background-color: #61360d;
+}
+
+.collapsible-header:hover{
+    background-color: #61360d;
+    color:white;
+}
+
+.circle {
+    box-shadow: 0 3px 5px;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+/*EMAIL*/
+
+.sidebar{
+    background-color: rgb(207, 101, 14);
+    padding-left: 10px;
+    font-weight: bold;
+    top: 0px;
+    border-bottom: black;
+}
+
+
+#logo{
+    font-size: 23px;
+    color: rgba(161,109,14,1);
+    font-weight: bold;
+    text-shadow: 1px 1px 20px rgb(94, 6, 6);
+    font-size: xx-large;
+   
+}
